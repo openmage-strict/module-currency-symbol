@@ -1,0 +1,5 @@
+src/app/code/core/Mage/CurrencySymbol/                                     app/code/core/Mage/CurrencySymbol/
+src/app/design/adminhtml/default/default/layout/currencysymbol.xml         app/design/adminhtml/default/default/layout/currencysymbol.xml
+src/app/design/adminhtml/default/default/template/currencysymbol/          app/design/adminhtml/default/default/template/currencysymbol/
+src/app/etc/modules/Mage_CurrencySymbol.xml                                app/etc/modules/Mage_CurrencySymbol.xml
+src/app/locale/en_US/Mage_CurrencySymbol.csv                               app/locale/en_US/Mage_CurrencySymbol.csv
