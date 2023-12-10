@@ -102,6 +102,9 @@ class Mage_CurrencySymbol_Model_System_Currencysymbol
      * Returns currency symbol properties array based on config values
      *
      * @return array
+     *
+     * @SuppressWarnings(PHPMD.CyclomaticComplexity)
+     * @SuppressWarnings(PHPMD.NPathComplexity)
      */
     public function getCurrencySymbolsData()
     {
@@ -191,6 +194,8 @@ class Mage_CurrencySymbol_Model_System_Currencysymbol
                 }
             }
         }
+
+        $value = [];
         if ($symbols) {
             $value['options']['fields']['customsymbol']['value'] = serialize($symbols);
         } else {
