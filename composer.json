@@ -5,6 +5,8 @@
     "type": "magento-module",
     "require": {
         "magento-hackathon/magento-composer-installer": "*",
-        "openmage-strict/module-widget": "^120.2"
+        "openmage-strict/module-widget": "^120.2",
+        "zf1s/zend-currency": "*",
+        "zf1s/zend-json": "*"
     }
 }
